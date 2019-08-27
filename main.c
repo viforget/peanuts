@@ -64,7 +64,9 @@ int				main(int ac, char **av)
 	unsigned int	b;
 	t_person		**per;
 	t_person		**shu;
-	
+
+	if (ac < 3)
+		return (printf("Pas assez de participants\n"));	
 	i = 0;
 	av += 1;
 	ac--;

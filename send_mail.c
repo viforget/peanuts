@@ -4,9 +4,9 @@ char *create_mail(char *from, char *to)
 {
 	char *str = BODY_1;
 	
-	str = ft_strjoindel(str, from);
-	str = ft_strjoindel(str, BODY_2);
-	str = ft_strjoindel(str, to);
+	str = ft_strjoin(str, from);
+	str = ft_strjoin(str, BODY_2);
+	str = ft_strjoin(str, to);
 	return (str);
 }
 
