@@ -4,13 +4,9 @@ char *create_mail(char *from, char *to)
 {
 	char *str = BODY_1;
 	
-	printf("A\n");
 	str = ft_strjoindel(str, from);
-	printf("B\n");
 	str = ft_strjoindel(str, BODY_2);
-	printf("C\n");
 	str = ft_strjoindel(str, to);
-	printf("D\n");
 	return (str);
 }
 
