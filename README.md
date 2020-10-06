@@ -15,4 +15,4 @@ Il n'y a pas de limites de participants
 
 ex: ./peanuts "Jean\~jean_pro@example.com" "Jullie\~julie-123@example.net"
 
-Note; le corps du mail peu etre change dans peanuts.h
+Note; le corp du mail peu etre change dans peanuts.h
