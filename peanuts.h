@@ -20,6 +20,6 @@ char			*ft_strjoin(char *s1, char const *s2);
 size_t			ft_strlen(const char *str);
 
 #define BODY_1 "Salut "
-#define BODY_2 ".\nCeci est un test, dis à Victor que tu as pioché:\n"
+#define BODY_2 ".\nPour Noël, tu vas offrir un cadeau d'une valeur entre 20 et 25 euros à "
 
 #endif
